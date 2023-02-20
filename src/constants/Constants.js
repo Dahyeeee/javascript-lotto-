@@ -45,6 +45,15 @@ const Rank = Object.freeze({
   ZERO: 6,
 });
 
+const InitialRank = Object.freeze({
+  1: 0,
+  2: 0,
+  3: 0,
+  4: 0,
+  5: 0,
+  6: 0,
+});
+
 const Prize = Object.freeze({
   1: 2_000_000_000,
   2: 30_000_000,
@@ -83,6 +92,7 @@ export {
   LottoStaticValue,
   Regex,
   MatchCount,
+  InitialRank,
   Rank,
   Prize,
   RequestMessage,
